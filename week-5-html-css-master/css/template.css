@@ -1,0 +1,39 @@
+
+
+body{
+	font-family: 'Roboto', sans-serif;
+	color: rgba(255, 255, 255, 0.8);
+	background-image:image/header_bg.jpg;
+}
+
+
+#boss-logo{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:150px;
+	margin-bottom:25px;
+}
+
+.fas{
+	color:grey;
+}
+
+
+
+.icon{
+	margin:0px 300px;
+	letter-spacing:40px;
+}
+
+
+
+.text{
+	word-spacing:50px;
+	margin:0 300px;
+}
+
+
+
+
+

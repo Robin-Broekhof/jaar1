@@ -1,0 +1,25 @@
+.leftSide{
+	float:left;
+	border:2px solid black;
+	margin:0 10px 20px 0;
+}
+
+#rightSide{
+	float:right;
+	border:2px solid black;
+}
+
+
+body {
+	width: 960px;
+	margin:0 auto;
+}
+
+
+
+body {
+	background-color: lightblue;
+font-family: 'Chilanka', cursive;
+
+
+

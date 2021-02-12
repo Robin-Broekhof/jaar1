@@ -1,0 +1,346 @@
+/*basis*/
+body{
+	font-family: 'Archivo', sans-serif;
+	overflow-x: hidden;
+}
+.width{
+	max-width: 1000px;
+	margin:auto;
+}
+.logo{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+}
+*{
+	padding:0;
+	margin: 0;
+	z-index: 0;
+}
+
+
+
+
+
+/*menu balk*/
+nav{	
+	width: 950px;
+	background-color: #222931;
+	height: 50px;
+	position: relative;
+	top:25px;
+}
+nav>ul>li>a{
+	padding: 0 10px;
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 50px;
+	display: block;
+}
+nav>ul>li{
+	display: inline-block;
+	height: 50px;
+}
+ul{
+	list-style-type: none;
+}
+ul ul{
+	display: none;	
+}
+
+
+
+
+
+/*hover styling*/
+nav>ul>li>a:hover, .overons:hover > a {
+	color: #222931;
+	background-color: #ffe718;
+}
+nav>ul>li:hover ul {
+	position: absolute;
+	display: block;
+	width: 200px;
+	height: 80px;
+	background-color: #222931;
+}
+nav>ul>li>ul>li>a{
+	text-decoration: none;
+	color: lightgray;
+	display: block;
+	padding: 5px;
+}
+nav>ul>li>ul>li>a:hover {
+	color: #222931;
+	background-color: #ffe718;
+}
+
+
+
+
+
+/*banner styling*/
+.banner{
+	display: inline-block;
+	width: 300px;
+	height: 220px;
+	margin: 10px;
+	position: relative;
+	top: 30px;
+	left: 20px;
+}
+.banner-hover{
+	position: absolute;
+	width: 300px;
+	height: 220px;	
+	background-color: rgba(34,41,49,0.8);
+	display: none;
+}
+.banner-hover>h2{
+	color: white;
+	font-size: 32px;
+	font-weight: 600;
+	position: relative;
+	text-align: center;
+	top: 87px;
+}
+.banner:hover .banner-hover{
+	display: block;
+}
+
+
+
+
+
+/*info bar styling*/
+.bar{
+	background-color: #ffe718;
+	height: 160px;
+	position: relative;
+	top: 50px;
+	display: grid;
+	grid-template-columns: 900px auto;
+}
+.bar-text{
+	position: relative;
+	left: 200px;
+}
+div>h1,h3{
+	display: inline-block;
+	margin-top: 65px;
+}
+div>h1{
+	font-size: 34px;
+	font-weight: 700;
+}
+div>h3{
+	font-size: 16px;
+	font-weight: 700;
+	 margin-left: 15px;
+}
+div>button{
+	position: relative;
+	top: 60px;
+	left: 5px;
+}
+button>a{
+	font-size: 12px;
+	font-weight: 500;
+	text-decoration: none;	
+	color: black;
+}
+.bar-button>button{
+	margin-top: 10px;
+	background-color: white;
+	padding: 12px 50px;
+	border: none;
+}
+.bar-button>button:hover{
+	background-color: #222931;
+}
+button:hover>a{
+	color: white;
+}
+.full{
+	position: relative;
+	top:90px;
+}
+
+
+
+
+
+/*footer buttons*/
+
+.footer-button{
+	position: relative;
+	top: 35px;
+}
+.footer-button>a{ 
+	background-color: #ffe718;
+	width: 300px;
+	height: 100px;
+	text-decoration: none;
+	position: relative;
+	float: left;
+	margin: 15px;
+	color: #222931;
+}
+.footer-button-text{
+	position: relative;
+	left: 110px;
+	top: 30px;
+}
+.footer-button-text>h2{
+	font-size: 22px;
+	font-weight: 600;
+}
+.footer-button-text>h3{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-weight: 600;
+}
+.footer-button>a>i{
+	position: absolute;
+	color: #222931;
+	left: 35px;
+	top: 26px;
+}
+.footer-button:hover > a > .footer-button-text, .footer-button:hover > a > i {
+	color: white;
+}
+.footer-button:hover > a {
+	background-color: #222931;
+}
+
+
+
+
+
+/*footer*/
+footer{
+	width: 1000px;
+	margin: 0 auto;
+}
+.footer-text{
+	position: relative;
+	top: 130px;
+	width: 429px;
+}
+.footer-text>h2{
+	color: #222931;
+	font-size: 24px;
+	font-weight: 600;
+}
+.footer-text>p{
+	margin: 0;
+	padding: 0;
+	margin-top: 30px;
+	color: #5f656d;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 400;
+}
+.footer-info{
+	margin-left:580px;
+	margin-top:-80px;
+}
+
+.footer-info>div>i{
+	color: #aeb6be;
+}
+.footerinfo>div>p{
+	margin: 10px;
+	display: inline-block;
+}
+
+
+
+/*bottom footer*/
+.bottomfooter{
+	background-color: #222931;
+	height: 50px;
+	position: relative;
+	top: 160px;
+}
+.bottomfooter>h4{
+	color: white;
+	float: right;
+	margin-right: 200px;
+	margin-top: 15px;
+	font-style: 10px;
+	font-weight: 400px;
+	line-height: 18px;
+}
+
+
+
+
+
+/*diensten pagina*/
+
+.dienstentext>p{
+	margin-top: 10px;
+}
+
+.highlight{ 
+	color: #ffe718;
+}
+
+.highlightBox{
+	z-index: 1;
+	position: absolute;
+	background-color: grey;
+	color: white;
+	width: 200px;
+	padding: 10px;
+	margin-top: 18px;
+	display: none;
+}
+
+.highlight:hover>.highlightBox{
+	display: inline-block;
+} 
+
+.dienstentext>h1 {
+	font-size: 34px;
+	font-weight: 600;
+}
+
+.breadcrumb{
+	font-size: 12px;
+	font-weight: 400;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.breadcrumb>a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

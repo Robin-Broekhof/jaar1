@@ -1,0 +1,204 @@
+body{
+	width:1100px;
+	margin:0 auto;
+	font-family: 'Lato', sans-serif;
+}
+
+
+/*grid layout*/
+.grid-container{	
+	display:grid;
+	grid-template-rows:100px 550px 150px 180px 80px;/*上と下*/
+	grid-template-columns:366px 366px 366px;/*左と右*/
+}
+
+
+/*grid*/
+header{
+	grid-row:1/4;
+	grid-column:1/2;
+}
+#logo{
+	grid-row:1/2;
+	grid-column:1/2;
+}
+#banner_bg{
+	grid-row:2/3;
+	grid-column:1/4;
+}
+#banner{
+	margin-top:25px;
+	margin-left:40px;
+	grid-row:2/3;
+	grid-column:1/2;
+	width: 690px;
+	height: 380px
+}
+#slider1{
+	grid-row:3/4;
+	grid-column:1/2;
+	margin:0 auto;
+}
+#slider2{
+	grid-row:3/4;
+	grid-column:2/3;
+	margin:0 auto;
+}
+#slider3{
+	grid-row:3/4;
+	grid-column:3/4;
+	margin:0 auto;	
+}
+#footer{
+	grid-row:5/6;
+	grid-column:1/4;
+	height: 60px;
+}
+
+/*text positioning*/
+
+.tekst1{
+	grid-row:2/3;
+	grid-column:3/4;
+	color: white;
+	margin-left: 2px;
+	margin-top: 20px;
+}
+
+.tekst2{
+	grid-row:4/5;
+	grid-column:1/2;
+	color:#173F5F;
+}
+
+.tekst3{
+	grid-row:4/5;
+	grid-column:2/3;
+	color:#173F5F;
+}
+
+.tekst4{
+	grid-row:4/5;
+	grid-column:3/4;
+	color:#173F5F;
+}
+
+.tekst5{
+	grid-row:5/6;
+	grid-column:2/3;
+	font-size: 14px;
+	color: white;
+}
+
+
+/*text css*/
+
+
+.title{
+	font-size: 26px;
+	line-height: 30px;
+}
+
+.sub-title{
+	font-size: 20px;
+	line-height: 22px;
+}
+
+.text{
+	font-size: 14px;
+	line-height: 20px;
+}
+
+/*Menubalk*/
+
+li>a{
+	color:#173F5F;
+	text-decoration: none;
+	display: inline;
+	margin-right:25px;
+	font-size: 20px;
+}	
+
+li{
+	display: inline;
+}
+
+ul{
+	list-style: none;
+	margin-top: 40px;
+}
+
+nav{
+	grid-row:1/2; 
+	grid-column:2/4;
+}
+
+
+/*css voor pagina autos*/
+
+#auto1{
+	grid-row:2/3;
+	grid-column:1/2;
+	margin-left: 36px;
+	margin-top: 20px;
+}
+
+#auto2{
+	grid-row:2/3;
+	grid-column:3/4;
+	margin-right: 36px;
+	margin-top: 20px;
+}
+
+#auto3{
+	grid-row:3/5;
+	grid-column:1/4;
+	margin: 0 300px 0 300px;
+}
+
+
+.tekst6{
+	grid-row:2/3;
+	grid-column:2/3;
+	margin-left: 20px;
+	color:white;
+}
+
+
+.tekst7{
+	grid-row:3/5;
+	grid-column:1/2;
+	margin-right: 80px;
+}
+
+
+
+
+#kleding1{
+	grid-row:2/3;
+	grid-column:1/2;
+	margin-top: 20px;
+	margin-left: 36px
+}
+
+#kleding2{
+	grid-row:2/3;
+	grid-column:2/3;
+	margin-top: 20px;
+	margin-left: 18px
+}
+
+#kleding3{
+	grid-row:2/3;
+	grid-column:3/4;
+	margin-top: 20px;
+	margin-right: 36px
+}
+
+.tekst8{
+	grid-row:2/3;
+	grid-column:2/3;
+	margin:0 10px;
+	color:white;
+}
+

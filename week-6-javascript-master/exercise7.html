@@ -1,0 +1,41 @@
+
+<!-- saved from url=(0090)file:///D:/School/Jaar%201/Blok%201/Week%206%3Bjavascript/Week-6-javascript/exercise7.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body>
+        <canvas id="canvas" width="800" height="600"></canvas>
+        <script src="./exercise7_files/robot-arm.js.download"></script>
+        <script>
+            // Robotarm bibliotheek inladen
+            var canvas = document.getElementById("canvas");
+            var robotArm = new RobotArm(canvas);
+    
+            
+            // Het level inladen
+            robotArm.loadLevel("exercise 7");
+            robotArm.speed = 10000;
+
+            
+            // Jou instructies volgen hier
+
+            
+            for(i00 = 1; i00 <=5; i00++){
+                for(i01 =1; i01 <=6; i01++){
+                robotArm.moveRight();
+                robotArm.grab();
+                robotArm.moveLeft();
+                robotArm.drop();
+                }
+                    robotArm.moveRight();
+                    robotArm.moveRight();
+
+            }
+            
+
+
+
+            
+            // De door jou opgegeven instructies uitvoeren
+            robotArm.run();
+            
+        </script>
+    
+</body></html>

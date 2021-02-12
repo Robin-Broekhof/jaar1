@@ -1,0 +1,34 @@
+
+
+body{
+	width:1124px;
+	margin:0 auto;
+}
+
+
+
+
+.grid_container{
+display: grid;
+grid-template-columns: 724px 300px;/*左と右*/
+grid-template-rows: 100px 170px;/*上と下*/
+}
+
+nav{
+margin-top:15px;
+grid-column:1/3;
+grid-row: 2/3;
+}
+
+content{
+margin-top:15px;
+grid-column:1/2; 
+grid-row: 3/4;
+}
+
+
+aside{
+margin-top:15px;
+grid-column: 2/3;
+grid-row: 3/4;
+}

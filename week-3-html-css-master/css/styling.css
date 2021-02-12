@@ -1,0 +1,16 @@
+
+#woImg{
+	float:right;
+	border:solid black 2px;
+	margin:0 0 0 0;
+}
+
+
+
+body{
+	width: 1080px;
+	margin:0 auto;
+	background-color: lightgreen;
+	font-family: 'Sorts Mill Goudy', serif;
+}
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="lingo.css">
+  <title>Lingo</title>
+</head>
+<body id="body">
+
+
+  <div id="kop">Raadt het woord!!</div>
+<div id="tekst">Groen = juiste letter<br> geel = verkeerde plek</div>
+
+<div id="container">
+  <div id="rij1">
+    <div class="vakje default"></div>
+    <div class="vakje default"></div>
+    <div class="vakje default"></div>
+    <div class="vakje default"></div>
+    <div class="vakje default"></div>
+  </div>
+  <div id="rij2">
+    <div class="vakje default"></div>
+    <div class="vakje default"></div>
+    <div class="vakje default"></div>
+    <div class="vakje default"></div>
+    <div class="vakje default"></div>
+  </div>
+  <div id="rij3">
+    <div class="vakje default"></div>
+    <div class="vakje default"></div>
+    <div class="vakje default"></div>
+    <div class="vakje default"></div>
+    <div class="vakje default"></div>
+  </div>
+  <div id="rij4">
+    <div class="vakje default"></div>
+    <div class="vakje default"></div>
+    <div class="vakje default"></div>
+    <div class="vakje default"></div>
+    <div class="vakje default"></div>
+  </div>
+  <div id="rij5">
+    <div class="vakje default"></div>
+    <div class="vakje default"></div>
+    <div class="vakje default"></div>
+    <div class="vakje default"></div>
+    <div class="vakje default"></div>
+  </div>
+</div>
+<input id="raadt" onkeypress="submitguess(this)" placeholder="Type your guess!">
+<button id="button" class="hidden" onClick="playagain()">Probeer opnieuw?</button>
+<script type="text/javascript" src="lingo-nl.js"></script>
+</div>
+</body>
+</html>

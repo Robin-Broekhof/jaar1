@@ -1,0 +1,28 @@
+body{
+	color:blue;
+
+	padding: 0;
+	margin:0;
+}
+
+
+#groot{
+	font-size: 44px;
+}
+
+.foto{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+
+}
+
+
+.tekst{
+	position: absolute;
+	top:15%;
+	left:0;
+	right:0;
+	text-align: center;
+}
+

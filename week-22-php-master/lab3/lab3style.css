@@ -1,0 +1,14 @@
+body{
+	background-color: grey;
+	width:1000px;
+	margin:0 auto;
+	margin-top: 10px
+}
+#submit{
+	margin-top: 10px;
+}
+#submit:hover{
+	background-color:red;
+	border:solid black 2px;
+	color:white;
+}

@@ -1,0 +1,90 @@
+body{
+	background-color: #f2f2ff;
+}
+
+#puzzle{
+	width: 600px;
+	height: 400px;
+	margin: 40px;  /*left=52*/ /*44*/
+	border: 4px solid black;
+
+}
+
+.topleft{
+	position:absolute;
+	top:44px;
+	left:52px;
+}
+
+.topright{
+	position:absolute;
+	top:44px;
+	left:616px;
+}
+
+.bottomleft{
+	position:absolute;
+	top:353px;
+	left:52px;
+}
+
+.bottomright{
+	position:absolute;
+	top:385px;		
+	left:595px;     
+}
+
+
+
+
+
+div>:nth-child(2){
+	position:absolute;
+	top:44px;
+	left:103px;		
+}
+
+div>:nth-child(3){
+	position:absolute;
+	top:44px;
+	left:185px;		
+}
+
+div>:nth-child(4){
+	position:absolute;
+	top:44px;
+	left:242px;		
+}
+
+div>:nth-child(5){
+	position:absolute;
+	top:44px;
+	left:292px;	
+}
+
+div>:nth-child(6){
+	position:absolute;
+	top:44px;
+	left:366px;			
+}
+
+div>:nth-child(7){
+	position:absolute;
+	top:44px;
+	left:430px;		
+}
+
+div>:nth-child(8){
+	position:absolute;
+	top:44px;
+	left:499px;		
+}
+
+div>:nth-child(9){
+	position:absolute;
+	top:44px;
+	left:565px;		
+}
+
+
+

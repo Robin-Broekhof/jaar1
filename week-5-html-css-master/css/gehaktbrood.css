@@ -1,0 +1,89 @@
+
+body{
+	background-color: lightgrey;
+	width: 900px;
+	margin:0 auto;
+		font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/*Margin space between elements*/
+
+
+
+
+.bereiding{
+	margin-bottom:20px;
+}
+
+.ingred{
+	margin-bottom:10px;
+}
+
+
+
+
+
+
+/*Text font size and line height*/
+
+.text{
+	font-size:20px;
+	line-height: 26px;
+}
+
+.title{
+	font-size:36px;
+	line-height:36px;
+	margin-top:40px;
+}
+
+.title-text{
+	font-size:24px;
+	line-height:32px;
+
+}
+
+.title-sub{
+	font-size:32px;
+	line-height:32px;
+}
+
+.tip{
+	font-size:18px;
+	background-color:#def6ed;
+	padding:20px;
+}
+
+
+
+
+/*Site margin size*/
+
+
+
+
+#brood{
+	display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width:600px; height:500px;
+        margin-bottom:45px;
+}
+
+
+#churros{
+	display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width:700px;
+}
+
+#carpaccio{
+	display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width:800px;
+}
